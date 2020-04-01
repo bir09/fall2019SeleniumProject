@@ -1,5 +1,10 @@
 package com.cybertek.tests;
 
-public class GitPractice {
+import org.testng.annotations.Test;
 
+public class GitPractice {
+    @Test
+    public void test1(){
+        System.out.println("TEST");
+    }
 }
