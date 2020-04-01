@@ -2,7 +2,9 @@ package com.cybertek.tests;
 
 import org.testng.annotations.Test;
 
+
 import java.lang.annotation.Target;
+
 
 public class GitPractice {
   //Hi Arman 
@@ -15,4 +17,10 @@ public class GitPractice {
         System.out.println("hi ");
     }
 
+
+    @Test
+    public void test2(){
+        System.out.println("HI Asiya");
+
+    }
 }
