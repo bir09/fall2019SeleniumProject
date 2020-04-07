@@ -3,8 +3,10 @@ package com.cybertek.tests.day1_navigation;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.sql.DriverManager;
+import java.util.Arrays;
 
 public class EtsyManipulation {
     public static void main(String[] args) {
@@ -53,4 +55,5 @@ public class EtsyManipulation {
 
 
     }
+    
 }
